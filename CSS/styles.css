@@ -1,0 +1,159 @@
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 90px;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+  border-top: 5px dotted;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
+  color: #808080;
+}
+
+
+/***********CLASS SELECTORS*******/
+
+
+.subtitle {
+  font-weight: normal;
+}
+
+.self {
+  height: 200px;
+  width: 150px;
+  border-radius: 30px;
+}
+
+.top {
+  background-color: #EAF6F6;
+  /* background-color: #a8d8ea; */
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+   margin: 100px 0;
+}
+.bottom {
+  /* background-color: blue;
+  width: 200px;
+  height: 200px; */
+}
+
+.just-me {
+  color: #40514E;
+  position: relative;
+  margin: auto;
+  /* display: inline-block; */
+  width: 30%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.dev-pic {
+  padding-right: 30px;
+  width: 25%;
+  float: left;
+}
+
+.dev-projects {
+  padding-left: 30px;
+  width: 25%;
+  float: right;
+}
+
+.fitness-pic {
+  padding-right: 30px;
+  width: 25%;
+  float: left;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 50px;
+  height: 120px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #66BFBF;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.footer-link {
+  margin: 10px 20px;
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
